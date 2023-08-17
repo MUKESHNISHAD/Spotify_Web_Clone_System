@@ -1,0 +1,175 @@
+ 
+    body{
+        background-image: url('../Animination/Animation.gif');
+       font-size: 15px;
+       background-repeat: no-repeat;
+       background-size:cover;
+   }
+   .SPlogo{
+       height: 19px;
+       width: 19px;
+       margin-left:3px;
+       margin-top: 5px;
+   }
+   .navigation{
+       background-color: rgb(28, 29, 29);
+       width: 100%;
+       height: 30px;
+       border-radius: 3px;
+       
+       margin-top: -8px;
+   }
+   .spotify{
+       align-items: center;
+       display: flex;
+       font-style: italic;
+   }
+   .SPname{
+       color: aquamarine;
+       margin-left: 4px;
+       align-items: center;
+       font-size: 15px;
+       align-content: center;
+       margin-bottom: 2px;
+
+   }
+   .navigation-Tittle{
+       margin-left: 1.2%;
+       text-decoration: none;
+       
+   }
+   .SongPlayContainer{
+       color: rgb(152, 204, 204);
+       background-color: rgb(34, 37, 38);
+       height: 320px;
+       width: 60%;
+       display: flex;
+       margin-top: 20px;
+       margin-left: 20%;
+       border-radius: 4px;
+       background-image: url('../Body-Layout/t2.jpg');
+       background-repeat: no-repeat;
+       background-size:cover;
+       opacity: 1.36;
+       font-size: 7.5px;
+   }
+
+   .songbar{
+        width: 100%;
+        height: 120px;
+        /* background-color: rgba(176, 204, 179, 0.577); */
+        border-radius: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 30px;
+       }
+   #progres-bar{
+       width: 150vh;
+       height: 20px;
+       cursor: pointer;
+   }
+
+   .mid-play,.play-forward ,.play-backward {
+       height: 19px;
+       width: 19px;
+       justify-content: center;
+       align-items: center;
+       cursor: pointer;  
+       border-radius: 35px;
+   }
+   .play-graphi{
+       opacity: 0;
+       transition: opacity 1.3s ease-in;
+       height: 60px;
+       width: 110px;
+       justify-content: center;
+       align-items: center;        
+   }
+   .play-box{
+       flex-direction: row;
+   }
+   .music-image{
+       width: 50px;
+       height: 45px;
+       flex-direction:column;
+       margin-top: 0px;
+       margin-left: 10px;
+   }
+    .songitem{
+       background-color: rgb(33, 45, 3);
+       height: 50px;
+       width: 200px;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       font-size:10px;
+       font-style: unset;
+       /* border-radius: 20px; */
+       margin-left: 10px;
+       margin-top: 3px;
+       display: flex;
+       align-items: center;
+       border-radius: 10px;
+    }
+    .timespan{
+       margin-left: 6px;
+    }
+    .tittle-song{
+       margin-left: 4px;
+    }
+    .song-item-play{
+       height: 19px;
+       width: 19px;
+       justify-content: center;
+       align-items: center;
+       cursor: pointer; 
+       margin-left: 2px;
+    }
+    .HeadingSongTitile{
+       margin-left: 10px;
+    }
+    .UserImage{
+       align-items: center;
+       align-content: center;
+       height: 20px;
+       width: 20px;
+       border-radius: 20px;
+       margin-left: 530px;
+       cursor: pointer;
+    }
+    .navigation-Link{
+        text-decoration: none;
+    }
+
+.PageBack{
+    margin-left: 390px;
+       height: 19px;
+       width: 19px;
+       justify-content: center;
+       align-items: center;
+       border-radius: 35px;
+       cursor: pointer;  
+}
+#ServerFetchData{
+        margin-left: 50%;
+       height: 30px;
+       width: 30px;
+       justify-content: center;
+       align-items: center;
+       border-radius: 35px;
+       cursor: pointer;  
+       opacity: 1.36;
+}
+.ServerFetchData{
+    margin-left: 10px;
+   height: 19px;
+   width: 19px;
+   justify-content: center;
+   align-items: center;
+   border-radius: 35px;
+   cursor: pointer;  
+}
+#sdata{
+    color: aqua;
+    font-size: 12px;
+}

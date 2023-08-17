@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.1">
+
+    </head>
+    <style>
+        #div{
+            height: 300px;
+            width: 35%;
+            background-color: hsla(215, 91%, 66%, 0.329);
+            margin-top: 0px;
+            margin-left: -33px;
+            border-radius: 33px;
+            border-color: rgb(225, 14, 14);
+            box-shadow: -4px -4px grey,4px 4px rgb(160, 158, 158);
+        }
+        #BODY{
+            background-image: url('Body-Layout/LoginBack.jpg');
+            background-repeat: no-repeat;
+            background-size:cover;
+            zoom: 1.00;
+            -moz-transform: scale(1.0); /* For Firefox */
+            -webkit-transform: scale(1.0); /* For Chrome, Safari, Opera */
+            transform: scale(1.0);
+            transform-origin: 0 0; 
+        }
+        .input1{
+            border-color: hsla(37, 19%, 87%, 0.329);
+            background-color: hsla(37, 19%, 87%, 0.329);
+            height: 20px;
+            width: 180px;
+            border-radius: 15px;
+            font-style:oblique;
+            text-size-adjust: 32px;
+            cursor:grab;
+            
+        }
+        .input2{
+            border-color: hsla(37, 19%, 87%, 0.329);
+            background-color: hsla(37, 19%, 87%, 0.329);;
+            height: 20px;
+            width: 210px;
+            border-radius: 15px;
+            font-style:oblique;
+            text-size-adjust: 32px;
+            cursor:grab;
+        }
+
+        textarea:focus, input:focus {
+                 color: #030303;
+                font-weight: 145;   
+                font-size: large; 
+                }
+
+
+        ::placeholder {  
+            color: rgb(23, 24, 24);
+       opacity: 8;
+       font-size: large;
+      }
+      .logo{
+        font-size: 15px; 
+        color: rgb(104, 243, 40);;
+      }
+      .purpose{
+            border-color: hsla(37, 19%, 87%, 0.329);
+            background-color: hsla(37, 19%, 87%, 0.329);;
+            height: 26px;
+            width: 350px;
+            border-radius: 15px;
+            font-style:oblique;
+            text-size-adjust: 32px;
+            color: rgb(23, 24, 24);
+            font-size: 17px;
+            cursor: pointer;
+      }
+      .option{
+        color: blue;
+        cursor: grab;
+      }
+      .button{
+        height: 35px;
+        width: 100px;
+        font-size: 17px;
+        font-style: italic;
+        background-color: rgb(229, 201, 168);
+        border-radius: 16px;
+        cursor:grab;
+      }
+    </style>
+    <body id="BODY">
+        <p class="logo"><b> <u>Welcome Spotify</u> &#128073;</b></p>
+        <center>
+         <div id="div">
+            
+             <form action="">
+                <h1 class="logo"> &#129409;  Log-in  &#129409; </h1>
+                <hr color="#FAF9F6" size="3px"><br><br>
+                <input type="text" class="input2" id="" placeholder="            User Name"><br><br><br>
+                <br><br>
+                <input type="password" class="input1" placeholder="         Password">
+
+                <br><br><br>
+                <button type="submit" class="button"  > <a href="Sign-Up.html"> <u>Create</u> </a> </button>
+                <button type="submit" class="button">Log-in</button>
+             </form>
+         </div>
+        </center>
+    </body>
+</html>

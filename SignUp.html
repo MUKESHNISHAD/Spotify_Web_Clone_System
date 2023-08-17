@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        #div{
+            height: 300px;
+            width: 35%;
+            /* background-color: hsla(37, 19%, 87%, 0.329); */
+            background-color: hsla(215, 91%, 66%, 0.329);
+            margin-top: -10px;
+            margin-left: -33px;
+            border-radius: 33px;
+            border-color: rgb(225, 14, 14);
+            box-shadow: -9px -8px grey,9px 8px rgb(160, 158, 158);
+        } 
+        #BODY{
+            background-image: url('Body-Layout/LoginBack.jpg');
+            background-repeat: no-repeat;
+            background-size:cover;
+        }
+        .input1{
+            border-color: hsla(37, 19%, 87%, 0.329);
+            background-color: hsla(37, 19%, 87%, 0.329);
+            height: 0.7%;
+            width: 90px;
+            border-radius: 15px;
+            font-style:oblique;
+            text-size-adjust: 3px;
+            cursor:grab;
+            font-size: 10px;
+        }
+        .input2{
+            border-color: hsla(37, 19%, 87%, 0.329);
+            background-color: hsla(37, 19%, 87%, 0.329);;
+            height: 10px;
+            width: 210px;
+            border-radius: 15px;
+            font-style:oblique;
+            text-size-adjust: 3px;
+            cursor:grab;
+            font-size: 10px;
+        }
+
+        textarea:focus, input:focus {
+                 color: #030303;
+                font-weight: 145;   
+                font-size: large; 
+                }
+
+
+        ::placeholder {  
+            color: rgb(23, 24, 24);
+       opacity: 8;
+       font-size: large;
+      }
+      .logo{
+        font-size: 15px;
+        color: rgb(121, 252, 60);;
+      }
+      .purpose{
+            border-color: hsla(37, 19%, 87%, 0.329);
+            background-color: hsla(37, 19%, 87%, 0.329);;
+            height: 26px;
+            width: 350px;
+            border-radius: 15px;
+            font-style:oblique;
+            text-size-adjust: 32px;
+            color: rgb(23, 24, 24);
+            font-size: 17px;
+            cursor: pointer;
+      }
+      .option{
+        color: blue;
+        cursor: grab;
+      }
+      .button{
+        height: 35px;
+        width: 50px;
+        font-size: 10px;
+        font-style: italic;
+        background-color: rgb(229, 201, 168);
+        border-radius: 16px;
+        cursor:grab;
+      }
+      ::placeholder{
+        font-size: 10px;
+      }
+      .input2::placeholder{
+        padding-left: 40%;
+      }
+    </style>
+    <body id="BODY">
+        <p class="logo"><b> <u>Welcome Spotify</u>&#128073;</b></p>
+        <center>
+         <div id="div">
+             <form action="signup.php" method="post">
+                <h1 class="logo">&#129409; Sign-Up &#129409;</h1>
+                <hr color="#FAF9F6" size="3px">
+                <input type="text" name="name" class="input1" placeholder="Name" >
+                <input type="text" name="surname" class="input1" placeholder="Surname" ><br><br><br>
+                <br><input type="email" name="email" class="input2" id="" placeholder="Email"><br><br><br>
+                <br> <input type="password" name="password" class="input1" placeholder="Password" >
+                <input type="password" class="input1" placeholder="Verification-Code"><br>
+                 <br>
+                <button type="submit" class="button">Create</button>
+                <button type="submit" class="button"><a href="Log-in.html">Log-in</a></button>
+             </form>
+         </div>
+        </center>
+    </body>
+</html>
